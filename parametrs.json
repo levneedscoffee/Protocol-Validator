@@ -1,0 +1,61 @@
+{
+  "header":{
+    "version":"num",
+    "command":"commandTag"
+  },
+  "footer":{
+    "timestamp":"num"
+  },
+  "auth":{
+    "idOrder":"num",
+    "cardNum":"cardNum",
+    "pin": "pin",
+    "name": "name",
+    "surname":"surname",
+    "month": "month",
+    "year" : "year",
+    "trigger":{
+      "cell": "objects",
+      "tag":"pin",
+      "options":{
+        "0000":"00",
+        "0030":"30",
+        "0031":"31",
+        "0040":"40",
+        "0050":"50"
+      }
+    }
+  },
+  "cancel":{
+    "idOrder":"num",
+    "dataOrder":"num",
+    "cardNum":"cardNum",
+    "surname":"surname",
+    "name":"name",
+    "pin":"pin",
+    "trigger":{
+      "cell": "objects",
+      "tag": "name",
+      "options":{
+        "Jonh":"00",
+        "David":"30",
+        "Mike": "31",
+        "Smith": "40",
+        "Anderson":"50"
+      }
+    }
+  },
+  "test":{
+    "trigger":{
+      "cell":"header",
+      "tag":"version",
+      "options":{
+        "1":"00",
+        "2":"30",
+        "3":"31",
+        "4":"40",
+        "5":"50"
+      }
+    }
+  }
+}
